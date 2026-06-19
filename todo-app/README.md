@@ -1,3 +1,3 @@
 # Todo App
 
-Deploy app with `kubectl create deployment todo-app-deployment --image=lucasnicolas/todo-app`
+Deploy app with `kubectl apply -f manifests/deployment.yaml`
