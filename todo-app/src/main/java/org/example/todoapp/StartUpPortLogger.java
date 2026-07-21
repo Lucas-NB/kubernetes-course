@@ -18,7 +18,6 @@ public class StartUpPortLogger {
   @EventListener(ApplicationReadyEvent.class)
   public void printPort() {
     int runningPort = this.context.getWebServer().getPort();
-
     System.out.println("--------------------------------------");
     System.out.printf("Server started in port %s\n", runningPort);
     System.out.println("--------------------------------------");
